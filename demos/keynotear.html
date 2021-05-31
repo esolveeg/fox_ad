@@ -1,0 +1,872 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CLEAN MARKUP = GOOD KARMA.
+      Hi source code lover,
+
+      you're a curious person and a fast learner ;)
+      Let's make something beautiful together. Contribute on Github:
+      https://github.com/webslides/webslides
+
+      Thanks!
+    -->
+
+    <!-- SEO -->
+    <title>عرض سعر</title>
+    <meta name="description" content="This proposal provided by esolve team">
+
+    <!-- URL CANONICAL -->
+    <!-- <link rel="canonical" href="http://your-url.com/permalink"> -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- CSS Base -->
+    <link rel="stylesheet" type='text/css' media='all' href="../static/css/webslidesar.css">
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type="text/css" media="all" href="../static/css/svg-icons.css">
+
+    <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+    <!-- FACEBOOK -->
+    <meta property="og:url" content="http://your-url.com/permalink"> <!-- EDIT -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="This proposal provided by esolve team"> <!-- EDIT -->
+    <meta property="og:description" content="This proposal provided by esolve team."> <!-- EDIT -->
+    <meta property="og:updated_time" content="2017-01-04T17:32:14"> <!-- EDIT -->
+    <meta property="og:image" content="https://www.esolve-eg.com/img/favicon.png" > <!-- EDIT -->
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@esolve-eg"> <!-- EDIT -->
+    <meta name="twitter:creator" content="@ahmedashraf"> <!-- EDIT -->
+    <meta name="twitter:title" content="This proposal provided by esolve team"> <!-- EDIT -->
+    <meta name="twitter:description" content="This proposal provided by esolve team."> <!-- EDIT -->
+    <meta name="twitter:image" content="https://www.esolve-eg.com/img/favicon.png"> <!-- EDIT -->
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" sizes="16x16" href="https://www.esolve-eg.com/img/favicon.png">
+    <link rel="shortcut icon" sizes="32x32" href="https://www.esolve-eg.com/img/favicon.png">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="https://www.esolve-eg.com/img/favicon.png">
+    <link rel="apple-touch-icon icon" sizes="120x120" href="https://www.esolve-eg.com/img/favicon.png">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="https://www.esolve-eg.com/img/favicon.png">
+    <link rel="apple-touch-icon icon" sizes="180x180" href="https://www.esolve-eg.com/img/favicon.png">
+    <link rel="apple-touch-icon icon" sizes="192x192" href="https://www.esolve-eg.com/img/favicon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+   
+    <style>
+      
+
+      @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+      @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+      @import url(https://fonts.googleapis.com/css?family=Montserrat:800);
+      .particles-js-canvas-el{
+        position: absolute;
+        top: 0;
+      }
+      
+      .pricing-section{
+      
+      }
+      
+      .pricing-section .wrap{
+        
+      }
+      
+      @media (min-width: 768px){
+        .work-request .column:first-child{
+          width: 75% !important;
+        }
+        .work-request .column:last-child{
+        width: 25% !important;
+        }
+      }
+      
+      svg{
+        width:auto;
+        height:auto;
+      }
+      .svg-check{
+        width: 33px !important;
+      }
+      hr{
+        margin: 10px 0;
+          background: rgba(255,255,255,.2);
+      }
+      .snip1214 {
+        font-family: 'Raleway', Arial, sans-serif;
+        color: #000000;
+        text-align: center;
+        font-size: 16px;
+        width: 100%;
+       
+        margin: 40px 10px;
+      }
+      .snip1214 .plan {
+        margin: 0px 20px;
+       
+        position: relative;
+        float: right;
+        background-color: #ffffff;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+      }
+      .snip1214 * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      .snip1214 header {
+        position: relative;
+      }
+      .snip1214 .plan-title {
+        position: relative;
+        top: 0;
+        font-weight: 800;
+        padding: 5px 15px;
+        margin: 0 auto;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        margin: 0;
+        display: inline-block;
+        background-color: #222f3d;
+        color: #ffffff;
+        text-transform: uppercase;
+      }
+      .snip1214 .plan-cost {
+        padding: 0px 10px 20px;
+      }
+      .snip1214 .plan-price {
+        font-family: 'Montserrat', Arial, sans-serif;
+        font-weight: 800;
+        font-size: 2.4em;
+        color: #34495e;
+      }
+      .snip1214 .plan-type {
+        opacity: 0.6;
+      }
+      .snip1214 .plan-features {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        list-style: outside none none;
+        font-size: 0.8em;
+      }
+      .snip1214 .plan-features li {
+        border-top: 1px solid #d2d7e2;
+        padding: 10px 5%;
+      }
+      .snip1214 .plan-features li:nth-child(even) {
+        background: rgba(0, 0, 0, 0.08);
+      }
+      .snip1214 .plan-features i {
+        margin-left: 8px;
+        opacity: 0.4;
+      }
+      .snip1214 .plan-select {
+        border-top: 1px solid #d2d7e2;
+        padding: 10px 10px 0;
+      }
+      .snip1214 .plan-select a {
+        background-color: #222f3d;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 0.5em 1em;
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+        font-weight: 800;
+        text-transform: uppercase;
+        display: inline-block;
+      }
+      .snip1214 .plan-select a:hover {
+        background-color: #46627f;
+      }
+      .snip1214 .featured {
+        margin-top: -10px;
+        background-color: #34495e;
+        color: #ffffff;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+        z-index: 1;
+      }
+      .snip1214 .featured .plan-title,
+      .snip1214 .featured .plan-price {
+        color: #ffffff;
+      }
+      .snip1214 .featured .plan-cost {
+        padding: 10px 10px 20px;
+      }
+      .snip1214 .featured .plan-features li {
+        border-top: 1px solid rgba(255, 255, 255, 0.4);
+      }
+      .snip1214 .featured .plan-select {
+        padding: 20px 10px 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.4);
+      }
+      @media only screen and (max-width: 767px) {
+        .snip1214 .plan {
+          width: 50%;
+        }
+        .snip1214 .plan-title,
+        .snip1214 .plan-select a {
+          -webkit-transform: translateY(0);
+          transform: translateY(0);
+        }
+        .snip1214 .plan-cost,
+        .snip1214 .featured .plan-cost {
+          padding: 20px 10px 20px;
+        }
+        .snip1214 .plan-select,
+        .snip1214 .featured .plan-select {
+          padding: 10px 10px 10px;
+        }
+        .snip1214 .featured {
+          margin-top: 0;
+        }
+      }
+      @media only screen and (max-width: 440px) {
+        .snip1214 .plan {
+          width: 80%;
+          margin-bottom: 36px;
+        }
+      }
+      
+      
+              @media (max-width: 768px){
+              .resp-p{
+                   
+                    width: 100%;
+                }
+                
+            }
+            .sub-menu{
+              margin-left: 40px;
+            }
+            @media (max-width: 940px){
+              .resp-p{
+                   
+                    width: 80%;
+                }
+                }
+            </style>
+       <style>
+      @import 'https://code.highcharts.com/css/highcharts.css';
+      
+      #container {
+        height: 400px;
+        max-width: 800px;
+        min-width: 320px;
+        margin: 0 auto;
+      }
+      
+      .highcharts-plot-background {
+        fill: rgba(0,0,0,0);
+      }
+      .highcharts-background {
+      
+      fill: rgba(0,0,0,0);
+      
+      }
+      .highcharts-legend-item > text , .highcharts-title , .highcharts-axis-labels , .highcharts-axis-labels{
+        fill:#fff;
+      }
+      
+      .highcharts-grid-line{
+        fill:rgba(0,0,0,0);
+        stroke: rgba(50, 50, 50 , 1);
+      }
+      .highcharts-credits{
+        display: none;
+      }
+      .highcharts-color-0 {
+        fill: #cfb0fe;
+        stroke: #cfb0fe;
+        box-shadow: 120px 80px 40px 20px #0ff;
+        width: 150px;
+          height: 150px;
+      }
+      .highcharts-graph {
+        filter: url(#glow);
+        stroke-width: 1.5px;
+      }
+      .highcharts-tooltip {
+        filter: url(#glow) !important;
+      }
+      
+      .grid .column:first-child , .bg{
+        background-color: rgba(0, 0, 0,.3);
+        box-shadow: 0 8px 16px rgba(0, 40, 160, 0.08), 0 8px 24px rgba(0, 0, 0, 0.08);
+      }
+      
+         </style>
+  </head>
+  <body>
+    
+
+    <main role="main">
+      <article id="webslides">
+
+        <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+        
+        <section  class="bg-apple aligncenter">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+            <a href="http://esolve-eg.com"><h1><img class="" src="https://www.esolve-eg.com/storage/settings/October2018/co7psNKpS3XTQbFr0pZ2.png" alt="esolve Logo"></h1></a>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section  class="bg-apple">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap size-50">
+            <h1>اهلا في عرض السعر الخاص بك من قبل <a href="http://esolve-eg.com" target="_blank">ESOLVE</a></h1>
+              <span>التاريخ : 27 يوليو 2020</span>
+              <p class="text-intro"></p>
+            <h3> احمد اشرف</h3>
+            <p class="text-intro"><spna>مهندس برمجيات</spna></p>
+            <p class="text-intro" style="margin:0 !important">الموقع :<a href="http://esolve-eg.com" target="_blank"> esolve-eg.com</a></p>
+            <p class="text-intro">البريد الاكتروني<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ahmed@esolve-eg.com&su=System proposal" target="_blank"> ahmed@esolve-eg.com</a></p>
+            
+          </div>
+          <!-- .end .wrap -->`
+        </section>
+
+        <section class="bg-apple slide-bottom">
+          <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
+          <span class="background" style="background-image:url('../static/images/O699PC0ar.png')"></span>
+          <div class="overlay"></div>
+          <div class="wrap">
+            <div class="content-left resp-p">
+              <p>
+                <svg class="large fa-tree">
+                  <use xlink:href="#fa-tree"></use>
+                </svg>
+              </p>
+              <h2>من نحن ؟</h2>
+              
+              <p>نحن فريق شباب من المسوقين الرقميين والمصممين والمطورين المحترفين الذين يمكنهم أن يفهموا جيدًا كيف يفكر و يعمل الإنترنت 
+                . لقد وحدنا جهودنا لإنشاء وكالة تسويق عبر الإنترنت متكاملة الخدمات تستخدم القوة الهائلة 
+                للإنترنت لصالح عملائنا.
+                </p>
+            </div>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+     
+        <section class="bg-apple slide">
+          <div class="wrap">
+            <div class="grid vertical-align">
+              <div class="column">
+                <h2>
+                  مقدمة
+                </h2>
+                <p class="text-intro">نحن سعداء جدا انك تريد ان تعرف كيف يمكننا مساعدتك في تحقيق اهدافك عن طريق خدماتنا و  نتمني ان يوضح التالي كيفية مشاركنتا في هذا
+                
+              </div>
+              <!-- end .column-->
+              <div class="column">
+                <figure>
+                  <img src="../static/images/Untitled-1.png" alt="intro image">
+                </figure>
+              </div>
+              <!-- end figure-->
+            </div>
+            
+            <!-- end .grid-->
+          </div>
+          <!-- end .wrap-->
+        </section>
+        
+        <section class="bg-apple slide">
+          <div class="wrap size-50">
+            <pre>
+
+              <h3 style="margin-bottom: 10px;">محتويات العرض</h3>
+              <ol class="text-cols">
+                   <li><a href="#slide=6">ادارة المخزون</a></li>
+                   <li><a href="#slide=7"> ادارة الطلبات </a></li>
+                   <li><a href="#slide=8">تجنب الاخطاء</a></li>
+                   <li><a href="#slide=9">الرسومات البانية و التقارير</a></li>
+                   <li><a href="#slide=10">الممولين</a></li>
+                   <li><a href="#slide=11">تعدد اللغات</a></li>
+                   <li><a href="#slide=12">تطبيف الهاتف</a></li>
+                   <li><a href="#slide=13">الاسعار</a></li>
+                   <li><a href="#slide=14">بعض من اعمالنا</a></li>
+                   <li><a href="#slide=14">شكرا لك</a></li>
+              </ol>
+            </pre>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-apple slide">
+          <div class="wrap">
+            <div class="grid vertical-align">
+
+              <div class="column">
+                <h2>
+                 ادارة المخزون
+                </h2>
+                <p class="text-intro">السماح بمعرفة ما تريد كيفما شثت وقتما شثت باسلوب سهل الاستخدام عن طريق البحث بطريقة هرمية.</p>
+                <ul class="description">
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                   اعرف مدي صحة القطع الموجودة في المخزن و كم تكلفتها
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    اعرض جميع المعلومات عن استخدام قطعة من المخزن و كم مرة استخدمت 
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    اتبع فقط ما تريد مع عدد لا نهائي من الحقول
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                   نظم المخزن بطريقة هرمية سهلة الاستخدام
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                   توصل للمعلومات بسرعة و سهولة عن طريق بار كود
+                  </li>
+                  
+                </ul>
+              </div>
+              <!-- end .column-->
+              <div class="column">
+                <figure>
+                  <img src="../static/images/parts-inventory.png
+                  " alt="inventory">
+                </figure>
+              </div>
+              <!-- end figure-->
+            </div>
+            <!-- end .grid-->
+          </div>
+          <!-- end .wrap-->
+        </section>
+        <section class="bg-apple slide">
+          <div class="wrap">
+            <div class="grid vertical-align ">
+              <div class="column column1">
+                <h2>
+                  ادارة الطلبات
+                </h2>
+                <p class="text-intro"> يمكنك بسهولة وبسرعة تنظيم جميع أوامر العمل الخاصة بك و الاوقات الاضافية والمهام الأخرى في جميع أنحاء فريقك في قاعدة بيانات مركزية يمكن الوصول إليها في أي مكان على أي جهاز</p>
+                <ul class="description">
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    اعرض كل مهام العمل الخاصة بك
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    ضع اولوية لمهام معينة حتي يتم اتمام المهام الاهم اولا
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    عرض جدول زمني علي التقويم للمهام الحالية و القادمة 
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    عرض مهام العمل مع معلومات مثل القطع المستخدمة من المخزون و وقت الاتمام و الاولوية و ما الي ذلك
+                    
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    قم بالسحب والإفلات لتغيير مهام العمل.
+                  </li>
+                </ul>
+              </div>
+              <!-- end .column-->
+              <div class="column">
+                <figure>
+                  <img src="../static/images/Untitled-2.png
+                  " alt="inventory">
+                </figure>
+              </div>
+              <!-- end figure-->
+            </div>
+            <!-- end .grid-->
+          </div>
+          <!-- end .wrap-->
+        </section>
+       
+        <section class="bg-apple slide">
+          <div class="wrap">
+            <div class="grid vertical-align">
+              <div class="column">
+                <h2>
+                  تجنب الاخطاء
+                </h2>
+                <p class="text-intro">
+                  السماح لك بوضع الجداول للفنين اوتوماتيكيا  و كذلك الاعمال المسائية حتي يتم تسليم العمل الصحيح تلقائيا الي الفني  الصحيح 
+                <ul class="description">
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    ارسال اشعارات عبر النظام و البريد الالكتروني تلقائيا فور وضع مهمة جديدة لفني
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    تقويم سهل الاستخدام لعرض كل المهام متضمنة جداول الاعمال المسائية مع توضيح اولولية كل مهمة
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    قم بالسحب والإفلات لتغيير ترتيب المهام في التقويم.
+
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    بعد اتمام المهمة سيتم تلقائيا تسجيل وقت الانتهاء و القطع المستخدمة من المخزون
+                    
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                   يتطلب النظام القليل جدا من التدريب لسهولته و يمكن التعامل معه بدون اي تدريب علي الاطلاق
+                  </li>
+                  
+                </ul>
+              </div>
+              <!-- end .column-->
+              <div class="column">
+                <figure>
+                  <img src="../static/images/Group-1.png
+                  " alt="inventory">
+                </figure>
+              </div>
+              <!-- end figure-->
+            </div>
+            <!-- end .grid-->
+          </div>
+          <!-- end .wrap-->
+        </section>
+        <section class="bg-apple slide">
+          <div class="wrap">
+            <div class="grid vertical-align">
+              <div class="column">
+                <h2>
+                  الرسومات البانية و التقارير
+                </h2>
+                <p class="text-intro">
+                  
+                  يمكنك البدء في استخدام بياناتك والبدء في وضع الخطط المدعومة بالبيانات موضع التنفيذ ، مما يؤدي إلى تقليل تكاليف العمالة ، وتقليل وقت التعطل ، وزيادة الربح ، واتخاذ القرارات الصحيحة والمزيد
+                </p>
+                <ul class="description">
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    اعرف أين تنفق أموالك ولماذا.
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    اعرف القطع التي تكلف أكثر ولماذا.
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    عرض التقارير التي يتم إنشاؤها وتحديثها تلقائيًا بناءً على مقاييسك.
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    عرض التقارير التي يمكن مشاركتها بسهولة عبر أوراق Excel أو ملفات PDF أو داخل النظام.
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    اعرض لوحات التحكم القابلة للتدوير على الشاشات الكبيرة التي تجلب مؤسستك بأكملها في مكان واحد.
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    وأكثر من ذلك بكثير ...
+                  </li>
+                  
+                </ul>
+              </div>
+              <!-- end .column-->
+              <div class="column">
+                <figure>
+                  <img src="../static/images/photo6036176956996823905.png
+                  " alt="inventory">
+                </figure>
+              </div>
+              <!-- end figure-->
+            </div>
+            <!-- end .grid-->
+          </div>
+          <!-- end .wrap-->
+        </section>
+        <section class="bg-apple slide">
+          <div class="wrap">
+            <div class="grid vertical-align  work-request">
+              <div class="column">
+                <h2>إدارة البائعين
+                </h2>
+                <p class="text-intro">جعل إدارة البائعين الخارجيين بنفس سهولة إدارة فريقك الخاص.</p>
+                <ul class="description">
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    قم بتخزين جميع معلومات البائع (الأسماء والعناوين ورسائل البريد الإلكتروني وأرقام الهاتف الفواتير وما إلى ذلك) داخل نظامك
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    ربط البائعين بالقطع التي يقومون بتوريدها
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    الاحتفاظ تلقائيًا بسجل حساب البائع والأجزاء المستخدمة والفواتير والبيانات الأخرى المطلوبة
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    احتفظ بسجل دائم لجميع طلبات العمل التي أكملها المورد لشركتك 
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    احصل على نظرة ثاقبة للمبلغ الذي تنفقه على كل بائع
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    يمكن مشاركة طلبات العمل مباشرة مع البائع الخاص بك مع أحد أعضاء فريقك القادر على الإشراف على عمل المورد والموافقة عليه
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    
+                    يمكنك تلقائيًا تلقي نفس الطلب من أحد البائعين التي قد تحصل عليها من خلال أحد أعضاء فريق الصيانة الخاص بك ،
+                  </li>
+                  
+                </ul>
+              </div>
+              <!-- end .column-->
+              <div class="column">
+                <figure>
+                  <img src="../static/images/photo6038712920436747101.png
+                  " alt="inventory">
+                </figure>
+              </div>
+              <!-- end figure-->
+            </div>
+            <!-- end .grid-->
+          </div>
+          <!-- end .wrap-->
+        </section>
+        <section class="bg-apple slide">
+          <div class="wrap">
+            <div class="grid vertical-align">
+              <div class="column">
+                <h2>
+                  متعدد اللغات
+                </h2>
+                <p class="text-intro">يمكنك تغيير اللغة بنقرتين فقط.</p>
+                <ul class="description">
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    استحمد لغات متعددة في نفس الحساب حتى يتمكن كل مستخدم من استخدام لغته المفضلة.
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    يدعم اللغتين العربية والإنجليزية
+                  </li>
+                  
+                  
+                  
+                </ul>
+              </div>
+              <!-- end .column-->
+              <div class="column">
+                <figure>
+                  <img src="../static/images/photo6036176956996823905.png
+                  " alt="inventory">
+                </figure>
+              </div>
+              <!-- end figure-->
+            </div>
+            <!-- end .grid-->
+          </div>
+          <!-- end .wrap-->
+        </section>
+        <section class="bg-apple slide">
+          <div class="wrap">
+            <div class="grid vertical-align work-request">
+              <div class="column">
+                <h2>
+                  نظام طلب عمل بتطبيق هاتف
+                </h2>
+                <p class="text-intro">السماح لأي شخص تفوضه بإرسال مشكلة إلى قسم الصيانة الخاص بك ببساطة عن طريق تنزيل تطبيق ios OR android وكتابة طلب الصيانة.</p>
+                <ul class="description">
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    بمجرد إرسال طلبات العمل تتم مزامنتها تلقائيًا عبر نظامك.
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    تقبل العديد من الخيارات من ضمنها وضع صورة و اتاحة المسخدمين لتقديم معلومات لفريق العمل الخاص بك حتي تكون علي دراية بالمشكلة قبل المغادرة لالصلاحها
+
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    يتم تنظيم جميع الأعمال تلقائيًا بترتيب واضح ومحدّد الأولويات بحيث يتم إنجاز العمل المناسب من قبل الشخص المناسب
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    يتم الاتصال تلقائيًا وفوريًا عبر فريقك عند بدء المهام ، والعمل عليها وإكمالها.
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    يمكن لمقدمي الطلبات إرسال مشكلة من أي مكان على أي جهاز بدلاً من الاتصال بفريقك ومقاطعته.
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    يتبقي العملاء تنبيهات بان العمل تم استقباله و يتم العمل عليه او تمت عملية الاصلاح مما يؤدي الي تقليل  مكالمات المتابعة
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    نظام تقييم كامل حيث يمكن للعميل وضع تقييم بالنجوم او تقييم مكتوب في مقدم الخدمة من الفنين
+                  </li>
+                  <li>
+                    <svg  class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#fff" d="M38.5 61.2L25.3 48l-4.5 4.5 17.7 17.7 38-38-4.5-4.5z"/></svg>
+                    متعدد اللغات
+                  </li>
+                  
+                </ul>
+              </div>
+              <!-- end .column-->
+              <div class="column">
+                <figure>
+                  <img src="../static/images/photo6036156551607200547.png
+                  " alt="inventory">
+                </figure>
+              </div>
+              <!-- end figure-->
+            </div>
+            <!-- end .grid-->
+          </div>
+          <!-- end .wrap-->
+        </section>
+        <section class="bg-apple slide pricing-section">
+          <div class="wrap ">
+            <div class="snip1214">
+            
+              <div class="plan featured">
+                <h3 class="plan-title">
+                  بداية
+                </h3>
+                <div class="plan-cost"><span class="plan-price">60.000EGP</span></div>
+                <ul class="plan-features">
+                  
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i>واجهة ويب</li>
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i>ادارة المخزون</li>
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i>التقارير </li>
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i>الممولين</li>
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i>تجنب الاخطاء</li>
+                  
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i>ادارة الطلبات</li>
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i>تعدد اللغات </li>
+                  <li style="margin-right:0px"><i class="ion-close"> </i>android تطبيق</li>
+                  <li style="margin-right:0px"><i class="ion-close"> </i>ios تطبيق</li>
+                  <li style="margin-right:0px"><i class="ion-close"> </i>ادوار خاصة</li>
+                
+                </ul>
+              </div>
+              <div class="plan featured">
+                <h3 class="plan-title">
+                 تطبيق الهاتف فقط
+                </h3>
+                <div class="plan-cost"><span class="plan-price">20.000EGP</span></div>
+                <ul class="plan-features">
+                  
+                  <li style="margin-right:0px"><i class="ion-close"> </i>واجهة ويب</li>
+                  <li style="margin-right:0px"><i class="ion-close"> </i>ادارة المخزون</li>
+                  <li style="margin-right:0px"><i class="ion-close"> </i>التقارير </li>
+                  <li style="margin-right:0px"><i class="ion-close"> </i>الممولين</li>
+                  <li style="margin-right:0px"><i class="ion-close"> </i>تجنب الاخطاء</li>
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i>ادارة الطلبات</li>
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i>تعدد اللغات </li>
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i> android تطبيق</li>
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i> ios تطبيق</li>
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i>ادوار خاصة</li>
+                
+                </ul>
+              </div>
+
+              <div class="plan featured">
+                <h3 class="plan-title">
+                  متقدم
+                </h3>
+                <div class="plan-cost"><span class="plan-price">75.000EGP</span></div>
+                <ul class="plan-features">
+                  
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i>واجهة ويب</li>
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i>ادارة المخزون</li>
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i>التقارير </li>
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i>الممولين</li>
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i>تجنب الاخطاء</li>
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i>ادارة الطلبات</li>
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i> تعدد اللغات </li>
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i>android  تطبيق</li>
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i>ios تطبيق</li>
+                  <li style="margin-right:0px"><i class="ion-checkmark"> </i>ادوار خاصة</li>
+                
+                </ul>
+              </div>
+
+            
+              
+            </div>
+            
+          </div>
+          <!-- end .wrap-->
+        </section>
+        <section class="bg-apple slide ">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap size-50 aligncenter">
+            <h2><strong>مثال علي اعمالنا السابقة</strong></h2>
+            <div class="bg shadow">
+              <ul class="flexblock reasons">
+                <a href="https://readerscorner.co/"></a><li>
+                  <h2><a href="https://readerscorner.co/">Readerscorner.co</a></h2>
+                  <p> هو مكتبة لبيع الكتب الإنجليزية والعربية على الإنترنت ، ويسمح بتسجيل بطاقات دفع الكترونية ، وقائمة الرغبات ، ورموز خصم ، ونظام المراجعات ، وإدارة المخزون ، وأكثر من ذلك بكثير</p>
+                </li></a>
+              </ul>
+            </div>
+            <!-- .end .bg-white shadow -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-apple aligncenter">
+          <h2 class="text-emoji zoomIn">😎</h2>
+          <h3><strong>شكرا لك</strong></h3>
+          <p>
+            Copyrights © 2020 جميع الحقوق محفوظة لشركة <a href="http://esolve-eg.com/">ESOLVE</a>.
+            </p>
+        </section>
+
+
+      </article>
+    </main>
+    <!--main-->
+
+    <!-- Required -->
+    <script src="../static/js/webslides.js"></script>
+    
+    <script>
+      window.ws = new WebSlides();
+    </script>
+
+<!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+<script defer src="../static/js/svg-icons.js"></script>
+<script src="http://code.jquery.com/jquery-1.7.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+<script>
+  /* ---- particles.js config ---- */
+  $(document).ready(function() {
+  particlesJS("webslides", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":0.1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":1,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":1.5,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+ });
+ </script>
+<!-- <script src="https://code.highcharts.com/modules/exporting.js"></script> -->
+   
+   
+  </body>
+</html>
